@@ -75,7 +75,7 @@ body{
     color: var(--color-1);
 }
 .back-img{
-    background: url('img/circle-scatter-haikei\ \(3\).png');
+    background: url('circle-scatter-haikei\ \(3\).png');
     background-size: contain;
     position: absolute;
     bottom: 0;
