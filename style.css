@@ -116,7 +116,7 @@ body{
     font-weight: bold;
     text-align: right;
     cursor: pointer;
-    height: 50px;
+    min-height: 70px;
 }
 .navbar .menu ul{
     list-style: none;
