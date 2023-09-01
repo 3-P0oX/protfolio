@@ -65,6 +65,7 @@
 *{
     padding: 0;
     margin: 0;
+    outline: none;
     box-sizing: border-box;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -75,7 +76,7 @@ body{
     color: var(--color-1);
 }
 .back-img{
-    background: url('circle-scatter-haikei\ \(3\).png');
+    background: url('img/circle-scatter-haikei\ \(3\).png');
     background-size: contain;
     position: absolute;
     bottom: 0;
@@ -115,6 +116,7 @@ body{
     font-weight: bold;
     text-align: right;
     cursor: pointer;
+    height: 50px;
 }
 .navbar .menu ul{
     list-style: none;
@@ -799,7 +801,7 @@ textarea {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
 }
-    .home-img img{
+    .home-img {
         display: none;
     }
     .home-img .miniphoto{
@@ -818,5 +820,8 @@ textarea {
     
     .card {
         width: 80%;
+    }
+    .about-myInfo h2,p{
+        font-size: var(--font-size-14);
     }
 }
