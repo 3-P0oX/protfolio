@@ -111,7 +111,7 @@ body{
     z-index: 7;
     width: 100%;
 }
-.navbar .nv-title{
+.navbar h2{
     font-size: var(--font-size-40);
     font-weight: bold;
     text-align: right;
